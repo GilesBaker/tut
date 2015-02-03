@@ -1,0 +1,36 @@
+<html>
+
+<html>
+<head>
+    <title>Tutorial3</title>
+    <script type="text/Javascript">
+
+    myName = "Giles";
+    foodType = "chocolates";
+    numberEaten = 9;
+    numberTotal = 35;
+
+    myArray = new Array("Giles","Liz","Liam","Buster","Brandy");
+
+    for (i=0; i<myArray.length; i++)
+  {
+    	if ((numberTotal-i) > 33)
+    {
+    	alert(myArray[i] + " ate " + (numberTotal - i) + " " + foodType+ ".");
+    }
+    	else if ((numberTotal-i)==33)
+    	{
+    		alert(myArray[i] + " ate the perfect number of " + foodType + ".");
+    	}
+    	else
+    	{
+    		alert(myArray[i] + " didn't eat enough " + foodType + ".");
+    	}
+
+    } 
+</script>
+</head>
+<body>
+
+</body>
+</html>
