@@ -1,0 +1,38 @@
+<html>
+
+<html>
+<head>
+    <title>Tutorial4</title>
+    <script type="text/Javascript">
+    perfectNumber = 12;
+
+    function checkApples(numApples)
+    {
+            if (numApples == perfectNumber)
+            {
+                alert ("You ate the perfect number of apples.");
+            }
+            else if (numApples > perfectNumber)
+            {
+                alert ("You ate way too many apples.");
+            }
+            else if (numApples < perfectNumber)
+            {
+                alert ("You didn't eat enough apples.");
+            }
+            else 
+            {
+                alert ("Say what?");
+            }
+    }
+    </script>
+</head>
+<body>
+    <h3>How many apples?</h3>
+    <form method="POST" name="applesForm"
+onSubmit="checkApples(document.applesForm.numApples.value);">
+        <input type="text" name="numApples" id="numApples" />
+        <input type="Submit" name="Submit" />
+    </form>
+</body>
+</html>
