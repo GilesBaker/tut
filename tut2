@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Tutorial2</title>
+    <script type="text/javascript">
+    var myName = "GB";
+    var foodType = "apples";
+    var numberEaten = 3;
+    var numberTotal = 7;
+    var myStatement = myName + " ate "+ numberEaten +" "+ foodType + " leaving " + (numberTotal - numberEaten) + " " + foodType
+
+alert(myStatement);
+</script>
+</head>
+<body>
+
+</body>
+</html>
