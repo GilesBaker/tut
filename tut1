@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>Tutorial1</title>
+    <script type="text/javascript">
+        myVariable = "Is there anybody out there?";
+        alert(myVariable);
+        //String: "Is there anybody out there?
+        //Number: 3
+        //Boolean: true or false
+    </script>
+</head>
+<body>
+
+</body>
+</html>
